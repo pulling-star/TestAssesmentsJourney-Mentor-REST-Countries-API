@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
   "predeploy": "vite build",
-   "deploy": "gh-pages -d build",
+   "deploy": "gh-pages -d dist",
     "preview": "vite preview --port 4173",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
