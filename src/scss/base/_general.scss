@@ -1,0 +1,23 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#app {
+    background-color: $color-white-alt;
+    color: $color-black;
+    min-height: 100vh;
+
+    &.app--darkmode {
+        background-color: $color-dark-primary;
+        color: $color-white;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+        line-height: 1;
+    }
+}
