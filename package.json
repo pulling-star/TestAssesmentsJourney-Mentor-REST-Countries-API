@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "predeploy": "npm run vite build",
+  "deploy": "vite gh-pages -d build",
     "preview": "vite preview --port 4173",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
